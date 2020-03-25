@@ -14,14 +14,13 @@ $.ajax(settings).done(function (jcontent){
     console.log(jcontent);
     console.log(jcontent.regioni[id].province.length);
     console.log(jcontent.regioni[id].province);
- document.getElementById("remove").remove();
  
 for (var i = 0; i < jcontent.regioni[id].province.length; i++) {
     console.log(i);
     console.log(jcontent.regioni[i].nome);
 
 var output = document.getElementById('province');
-output.innerHTML += '<option value="' + jcontent.regioni[id].province[i] + '">' + jcontent.regioni[id].province[i] + '</option>';
+output.innerHTML += '<option value="' + i + '">' + jcontent.regioni[id].province[i] + '</option>';
 
 }
 

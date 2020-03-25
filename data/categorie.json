@@ -1,0 +1,34 @@
+﻿{
+  "categorie": [
+    {
+      "Nome": "Americano",
+      "id": "americano",
+      "image": "https://example.com"
+    },
+    {
+      "Nome": "Asiatico",
+      "id": "asiatico",
+      "image": "https://example.com"
+    },
+    {
+      "Nome": "Dolce",
+      "text": "dolce",
+      "image": "https://example.com"
+    },
+    {
+      "Nome": "Pizza e Kebab",
+      "text": "pizza-kebab",
+      "image": "https://example.com"
+    },
+    {
+      "Nome": "Vegetariano",
+      "text": "vegetariano",
+      "image": "https://example.com"
+    },
+    {
+      "Nome": "Altro",
+      "text": "altro",
+      "image": "https://example.com"
+    }
+  ]
+}

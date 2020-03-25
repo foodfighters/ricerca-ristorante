@@ -173,25 +173,34 @@
 
       <div class="container">
           
-          <div class="col-lg-12">
+          <div class="col-lg-8 text-center container">
             <form action="#" method="post">
               <div class="row">
                 <div class="col-md-3 form-group">
                   <label for="name">Provincia</label>
-                    <select id="province" class="form-control ">
-                        <option id="remove" value="error">errore</option>
+                    <select id="province" class="form-control " onchange="getOption(this)">
+                        <option value="all">Tutte</option>
                     </select>
                 </div>
-                <div class="col-md-3 form-group">
+                <div class="col-md-6 form-group">
                   <label for="phone">Comune</label>
-                  <select id="comuni" class="form-control ">
-                        <option id="remove" value="error">errore</option>
+                  <select id="comuni" class="form-control comuni">
+                        <option value="all">Tutti</option>
+                        <option class="comuni" value="none" disabled>Seleziona Provincia</option>
                     </select>
                 </div>
                 <div class="col-md-3 form-group">
                   <label for="phone">Tipo</label>
                   <select id="tipo" class="form-control ">
                         <option value="all">Tutti</option>
+                      <option value="all">Americano</option>
+                      <option value="all">Asiatico</option>
+                      <option value="all">Dolce</option>
+                      <option value="all">Pizza</option>
+                      <option value="all">Kebab</option>
+                      <option value="all">Italiano</option>
+                      <option value="all">Vegetariano</option>
+                      <option value="all">Altro</option>
                     </select>
                 </div>
               </div>
@@ -201,7 +210,7 @@
           
           
         
-        <div class="row no-gutters" id="regioni">
+        <div class="row no-gutters" id="ristoranti">
           <div class="col-md-6" id="remove">
             <div class="sched d-block d-lg-flex">
               <div class="text order-1">
@@ -213,7 +222,7 @@
           </div>
         </div>
 
-    <!--    <div class="row no-gutters">
+      <div class="row no-gutters">
           <div class="col-md-6">
             <div class="sched d-block d-lg-flex">
               <div class="bg-image order-2" style="background-image: url('../img/dishes_4.jpg');" data-aos="fade"></div>
@@ -226,7 +235,7 @@
             </div>
 
             <div class="sched d-block d-lg-flex">
-              <div class="bg-image" style="background-image: url('img/dishes_1.jpg');" data-aos="fade"></div>
+              <div class="bg-image" style="background-image: url('../img/dishes_1.jpg');" data-aos="fade"></div>
               <div class="text">
                 <h3>Spicy Calamari and beans</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...</p>
@@ -251,7 +260,7 @@
             </div>
 
             <div class="sched d-block d-lg-flex">
-              <div class="bg-image" style="background-image: url('img/dishes_3.jpg');" data-aos="fade"></div>
+              <div class="bg-image" style="background-image: url('../img/dishes_3.jpg');" data-aos="fade"></div>
               <div class="text">
                 <h3>Seared ahi tuna fillet*, honey-ginger sauce</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...</p>
@@ -262,7 +271,7 @@
             </div>
 
           </div>
-        </div> -->
+        </div>
         
 
       </div>
@@ -453,7 +462,18 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="../js/magnific-popup-options.js"></script>
     
 
-      <script src="../js-list/province.js"> var regione = 5 </script>
+      <script type="text/javascript" src="../js-list/province.js"> 
+        
+          window.onload = function() {
+        var regione = 7;
+          var id = regione;
+          console.log(id);
+         yourFunction(param1, param2);
+};
+              
+      </script>
+      <script src="../js-list/comuni.js"></script>
+      <script src="../js-list/ristoranti.js"></script>
       
     <script src="../js/main.js"></script>
     
