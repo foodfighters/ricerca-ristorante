@@ -5,31 +5,31 @@
 			"nome": "Abruzzo",
 			"capoluoghi": ["Chieti", "L'Aquila", "Pescara", "Teramo"],
 			"province":["CH","AQ","PE","TE"],
-            "link": "/in-arrivo"
+            "link": "/abruzzo"
 		},
 		{
 			"nome": "Basilicata",
 			"capoluoghi": ["Matera", "Potenza"],
 			"province":["MT","PZ"],
-            "link": "/in-arrivo"
+            "link": "/basilicata"
 		},
 		{
 			"nome": "Calabria",
 			"capoluoghi": ["Catanzaro", "Cosenza", "Crotone", "Reggio Calabria", "Vibo Valentia"],
 			"province":["CZ","CS","KR","RC","VV"],
-            "link": "/in-arrivo"
+            "link": "/calabria"
 		},
 		{
 			"nome": "Campania",
 			"capoluoghi": ["Avellino", "Benevento", "Caserta", "Napoli", "Salerno"],
 			"province":["AV","BN","CE","NA","SA"],
-            "link": "/in-arrivo"
+            "link": "/Campania"
 		},
 		{
 			"nome": "Emilia-Romagna",
 			"capoluoghi": ["Bologna", "Ferrara", "Forlì-Cesena", "Modena", "Parma", "Piacenza", "Ravenna", "Reggio Emilia", "Rimini"],
 			"province":["BO","FE","FC","MO","PR","PC","RA","RE","RN"],
-            "link": "/in-arrivo"
+            "link": "/emilia-romagna"
 		},
 		{
 			"nome": "Friuli-Venezia Giulia",
@@ -41,85 +41,85 @@
 			"nome": "Lazio",
 			"capoluoghi": ["Frosinone", "Latina", "Rieti", "Roma", "Viterbo"],
 			"province":["FR","LT","RI","RM","VT"],
-            "link": "/in-arrivo"
+            "link": "/lazio"
 		},
 		{
 			"nome": "Liguria",
 			"capoluoghi": ["Genova", "Imperia", "La Spezia", "Savona"],
 			"province":["GE","IM","SP","SV"],
-            "link": "/in-arrivo"
+            "link": "/liguria"
 		},	
 		{
 			"nome": "Lombardia",
 			"capoluoghi": ["Bergamo", "Brescia", "Como", "Cremona", "Lecco", "Lodi", "Mantova", "Milano", "Monza e Brianza", "Pavia", "Sondrio", "Varese"],
 			"province":["BG","BS","CO","CR","LC","LO","MN","MI","MB","PV","SO","VA"],
-            "link": "/in-arrivo"
+            "link": "/lombardia"
 		},
 		{
 			"nome": "Marche",
 			"capoluoghi": ["Ancona", "Ascoli Piceno", "Fermo", "Macerata", "Pesaro e Urbino"],
 			"province":["AN","AP","FM","MC","PU"],
-            "link": "/in-arrivo"
+            "link": "/marche"
 		},
 		{
 			"nome": "Molise",
 			"capoluoghi": ["Campobasso", "Isernia"],
 			"province":["CB","IS"],
-            "link": "/in-arrivo"
+            "link": "/molise"
 		},
 		{
 			"nome": "Piemonte",
 			"capoluoghi": ["Alessandria", "Asti", "Biella", "Cuneo", "Novara", "Torino", "Verbano Cusio Ossola", "Vercelli"],
 			"province":["AL","AT","BI","CN","NO","TO","VB","VC"],
-            "link": "/in-arrivo"
+            "link": "/piemonte"
 		},
 		{
 			"nome": "Puglia",
 			"capoluoghi": ["Bari", "Barletta-Andria-Trani", "Brindisi", "Lecce", "Foggia", "Taranto"],
 			"province":["BA","BT","BR","LE","FG","TA"],
-            "link": "/in-arrivo"
+            "link": "/puglia"
 		},
 		{
 			"nome": "Sardegna",
 			"capoluoghi": ["Cagliari", "Carbonia-Iglesias", "Medio Campidano", "Nuoro", "Ogliastra", "Olbia-Tempio", "Oristano", "Sassari"],
 			"province":["CA","CI","VS","NU","OG","OT","OR","SS"],
-            "link": "/in-arrivo"
+            "link": "/sardegna"
 		},
 		{
 			"nome": "Sicilia",
 			"capoluoghi": ["Agrigento", "Caltanissetta", "Catania", "Enna", "Messina", "Palermo", "Ragusa", "Siracusa", "Trapani"],
 			"province":["AG","CL","CT","EN","ME","PA","RG","SR","TP"],
-            "link": "/in-arrivo"
+            "link": "/sicilia"
 		},
 		{
 			"nome": "Toscana",
 			"capoluoghi": ["Arezzo", "Firenze", "Grosseto", "Livorno", "Lucca", "Massa e Carrara", "Pisa", "Pistoia", "Prato", "Siena"],
 			"province":["AR","FI","GR","LI","LU","MS","PI","PT","PO","SI"],
-            "link": "/in-arrivo"
+            "link": "/toscana"
 		},
 		{
 			"nome": "Trentino-Alto Adige",
 			"capoluoghi": ["Bolzano", "Trento"],
 			"province":["BZ","TN"],
-            "link": "/in-arrivo"
+            "link": "/trentino-alto-adige"
 		},
 		{
 			"nome": "Umbria",
 			"capoluoghi": ["Perugia", "Terni"],
 			"province":["PG","TR"],
-            "link": "/in-arrivo"
+            "link": "/umbria"
 		},
 		{
 			"nome": "Valle d'Aosta",
 			"capoluoghi": ["Aosta"],
 			"province":["AO"],
-            "link": "/in-arrivo"
+            "link": "/valle-d-aosta"
 		},
 		{
 			"nome": "Veneto",
 			"capoluoghi": ["Belluno", "Padova", "Rovigo", "Treviso", "Venezia", "Verona", "Vicenza"],
 			"province":["BL","PD","RO","TV","VE","VR","VI"],
-            "link": "/in-arrivo"
+            "link": "/veneto"
 		}
 	]
 }
