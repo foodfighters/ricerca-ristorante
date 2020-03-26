@@ -5,7 +5,6 @@ var settings = {
   "method": "GET",
 }
 
-
 $.ajax(settings).done(function (jcontent){
     
     console.log(jcontent);
@@ -18,7 +17,7 @@ for (var i = 0; i < jcontent.regioni.length; i++) {
     console.log(jcontent.regioni[i].nome);
 
 var output = document.getElementById('regioni');
-output.innerHTML += '<div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-xs-12"> <div class="sched d-block d-lg-flex"> <div class="text order-1"> <h3>' + jcontent.regioni[i].nome + '</h3> <p class="text-primary h3"> <a class="" href="' + jcontent.regioni[i].link + '" >Cerca</a> </p> </div> </div> </div>';
+output.innerHTML += '<div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-xs-12"> <div class="sched d-block d-lg-flex"> <div class="text order-1"> <h3>' + jcontent.regioni[i].nome + '</h3> <p class="text-primary h3"> <a class="" href="' + jcontent.regioni[i].link + '" >Cerca</a> </p> </div> </div> </div> </div>';
 
 }
 

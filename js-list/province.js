@@ -5,11 +5,14 @@ var settings = {
   "method": "GET",
 }
 
-var regione = 5;
-var id = regione;
+    var regione = 5;
+    var id = regione;
     console.log(id);
 
 $.ajax(settings).done(function (jcontent){
+    
+    
+
     
     console.log(jcontent);
     console.log(jcontent.regioni[id].province.length);
