@@ -153,7 +153,6 @@ header .navbar-brand span {
 }
 
 header .navbar {
-    background: black!important;
     padding-top: .5rem;
     padding-bottom: .5rem
 }
@@ -1839,6 +1838,13 @@ header .navbar .cta-btn a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     margin:auto;
+}
+
+.single_client_logo {
+    vertical-align: middle;
+    margin: auto;
+    width: inherit;
+    
 }
 
 /*# sourceMappingURL=style.css.map */
