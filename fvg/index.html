@@ -137,23 +137,21 @@
                 </div>
                 <div class="col-md-6 form-group">
                   <label for="phone">Comune</label>
-                  <select id="comuni" class="form-control comuni">
+                  <select id="comuni" class="form-control comuni" onchange="loadcomuni(this)">
                         <option value="all">Tutti</option>
                         <option class="comuni" value="none" disabled>Seleziona Provincia</option>
                     </select>
                 </div>
                 <div class="col-md-3 form-group">
                   <label for="phone">Tipo</label>
-                  <select id="tipo" class="form-control ">
+                  <select id="categoria" class="form-control " onchange="loadtag(this)" >
                         <option value="all">Tutti</option>
-                      <option value="all">Americano</option>
-                      <option value="all">Asiatico</option>
-                      <option value="all">Dolce</option>
-                      <option value="all">Pizza</option>
-                      <option value="all">Kebab</option>
-                      <option value="all">Italiano</option>
-                      <option value="all">Vegetariano</option>
-                      <option value="all">Altro</option>
+                      <option value="americano">Americano</option>
+                      <option value="asiatico">Asiatico</option>
+                      <option value="dolce">Dolce</option>
+                      <option value="pizzakebab">Pizza</option>
+                      <option value="vegetariano">Vegetariano</option>
+                      <option value="other">Altro</option>
                     </select>
                 </div>
               </div>
