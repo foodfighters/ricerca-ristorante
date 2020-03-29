@@ -9,7 +9,7 @@ var settings = {
 
 
 
-$.ajax(settings).done(function (jcontent){
+ $.ajax(settings).done(function (jcontent){
     
    // console.log(jcontent);
     console.log(jcontent.ristoranti[0].nome);
@@ -43,7 +43,7 @@ overlay.innerHTML += ' <div class="overlay" id="popup-' + jcontent.ristoranti[i]
 
 
 
-function loadcomuni(v)
+function loadcomuni(cm)
  {
      
      
@@ -98,9 +98,7 @@ overlay.innerHTML += ' <div class="overlay" id="popup-' + jcontent.ristoranti[i]
 
  }
 
-var load = document.getElementById("comuni").value;
 
-load.addEventListener("all", loadcomuni);
 
 // document.getElementById("comuni").onselect = function() {loadcomuni()};
 
