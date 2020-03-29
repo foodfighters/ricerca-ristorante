@@ -109,6 +109,5 @@ function loadtag(v)
      tag +='"#' + categoria + '"';
     console.log(tag);
      
-$(tag).remove();
 
  }
