@@ -1,5 +1,6 @@
  function getOption(v)
  {
+    
 
 var settings = {
   "async": true,
@@ -22,16 +23,20 @@ $.ajax(settings).done(function (jcontent){
 
     if (pv== "all") {
      var output = document.getElementById('comuni');
-output.innerHTML += '<option id="remove-me" value="all">Tutti</option><option id="remove-me" value="none" disabled>Seleziona Provincia</option>';   
+output.innerHTML += '<option id="remove-me" value="all">Tutti</option><option id="remove-me" value="none" disabled>Seleziona Provincia</option>';
+      loadcomuni();  
     }
     else {
         
         var output = document.getElementById('comuni');
-output.innerHTML += '<option id="remove-me" value="all">Tutti</option>'; 
+output.innerHTML += '<option id="remove-me" value="all">Tutti (intera regione)</option>'; 
+        
+            loadcomuni();
     
 for (var i = 0; i < jcontent.regioni[id].province[pv].comuni.length; i++) {
     console.log(i);
    
+
 
 var output = document.getElementById('comuni');
 output.innerHTML += '<option id="remove-me" value="' + jcontent.regioni[id].province[pv].comuni[i].nome + '">' + jcontent.regioni[id].province[pv].comuni[i].nome + '</option>';
@@ -41,6 +46,7 @@ output.innerHTML += '<option id="remove-me" value="' + jcontent.regioni[id].prov
   }      
         
 });
+
 
 
  }
