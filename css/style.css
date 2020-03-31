@@ -55,7 +55,7 @@ h5 {
 
 .form-control:active,
 .form-control:focus {
-    border-color: #ff7404
+    border-color: #ff0000
 }
 
 textarea.form-control {
@@ -86,7 +86,7 @@ textarea.form-control {
 
 .btn.btn-outline-primary {
     border-width: 2px;
-    color: #ff7404
+    color: #ff0000
 }
 
 .btn.btn-outline-primary:active,
@@ -143,7 +143,7 @@ header .navbar-brand.absolute {
 }
 
 header .navbar-brand span {
-    color: #ff7404
+    color: #ff0000
 }
 
 @media (min-width:768px) {
@@ -180,7 +180,7 @@ header .navbar .nav-link {
 }
 
 header .navbar .nav-link.active {
-    color: #ff7404!important
+    color: #ff0000!important
 }
 
 header .navbar .dropdown-menu {
@@ -213,12 +213,12 @@ header .navbar .dropdown-menu:before {
 }
 
 header .navbar .dropdown-menu .dropdown-item:hover {
-    background: #ff7404;
+    background: #ff0000;
     color: #fff
 }
 
 header .navbar .dropdown-menu .dropdown-item.active {
-    background: #ff7404;
+    background: #ff0000;
     color: #fff
 }
 
@@ -228,7 +228,7 @@ header .navbar .dropdown-menu a {
 }
 
 header .navbar .cta-btn a {
-    background: #ff7404;
+    background: #ff0000;
     color: #fff!important;
     text-transform: uppercase;
     font-size: .8rem;
@@ -242,7 +242,7 @@ header .navbar .cta-btn a {
 
 header .navbar .cta-btn a:hover {
     background: #fff;
-    color: #ff7404!important;
+    color: #ff0000!important;
     -webkit-box-shadow: 2px 0 30px -5px rgba(0, 0, 0, 0.2);
     box-shadow: 2px 0 30px -5px rgba(0, 0, 0, 0.2)
 }
@@ -280,7 +280,7 @@ header .navbar .cta-btn a:hover {
 
 .section-heading .small-sub-heading {
     font-size: 14px;
-    color: #ff7404
+    color: #ff0000
 }
 
 .blog .media h3 {
@@ -397,7 +397,7 @@ header .navbar .cta-btn a:hover {
 .heading-wrap h2:before {
     width: 80px;
     height: 2px;
-    background: #ff7404;
+    background: #ff0000;
     content: "";
     position: absolute;
     top: 0;
@@ -468,7 +468,9 @@ header .navbar .cta-btn a:hover {
 .blog,
 .sched {
     display: block;
-    background-color: #fff
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 20px;
 }
 
 .blog .bg-image,
@@ -540,7 +542,7 @@ header .navbar .cta-btn a:hover {
 
 .custom-icon {
     font-size: 70px;
-    color: #ff7404
+    color: #ff0000
 }
 
 .owl-carousel .owl-item {
@@ -642,7 +644,7 @@ header .navbar .cta-btn a:hover {
 
 .owl-carousel.centernonloop2 .owl-dots .owl-dot.active>span,
 .owl-carousel.centernonloop .owl-dots .owl-dot.active>span {
-    background: #ff7404;
+    background: #ff0000;
     -webkit-box-shadow: 0 1px 5px 0px rgba(255, 116, 4, 0.3);
     box-shadow: 0 1px 5px 0px rgba(255, 116, 4, 0.3)
 }
@@ -1032,7 +1034,7 @@ header .navbar .cta-btn a:hover {
 }
 
 .form-wrap.primary {
-    background: #ff7404
+    background: #ff0000
 }
 
 .form-wrap.warning {
@@ -1089,7 +1091,7 @@ header .navbar .cta-btn a:hover {
     position: relative;
     width: 0px;
     font-size: 30px;
-    color: #ff7404
+    color: #ff0000
 }
 
 .load-more {
@@ -1102,7 +1104,7 @@ header .navbar .cta-btn a:hover {
 }
 
 .load-more:hover {
-    background: #ff7404;
+    background: #ff0000;
     color: #fff
 }
 
@@ -1142,7 +1144,7 @@ header .navbar .cta-btn a:hover {
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
-    background: #ff7404
+    background: #ff0000
 }
 
 .text-black {
@@ -1171,7 +1173,7 @@ header .navbar .cta-btn a:hover {
 
 .media-feature .icon {
     font-size: 60px;
-    color: #ff7404
+    color: #ff0000
 }
 
 .media-feature h3 {
@@ -1187,7 +1189,7 @@ header .navbar .cta-btn a:hover {
     -ms-transform: scale(1.05);
     transform: scale(1.05);
     z-index: 2;
-    border-bottom: 10px solid #ff7404
+    border-bottom: 10px solid #ff0000
 }
 
 .media-custom {
@@ -1651,7 +1653,7 @@ header .navbar .cta-btn a:hover {
     border-radius: 50%;
     position: relative;
     display: block;
-    background: #ff7404
+    background: #ff0000
 }
 
 .wrap-icon>span {
@@ -1831,18 +1833,17 @@ header .navbar .cta-btn a:hover {
 
 
 .popup {
-    max-height: 90%;
+    max-height: 100%;
     width:auto;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin:auto;
+    border-radius: 15px;
 }
 
 .single_client_logo {
     vertical-align: middle;
     margin: auto
 }
-
-/*# sourceMappingURL=style.css.map */

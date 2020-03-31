@@ -115,6 +115,7 @@ header {
 
 
 	.navbar {
+		background: rgba(0,0,0,1)!important;
 		padding-top: .5rem;
 		padding-bottom: .5rem;
 		@include media-breakpoint-up(md) {
