@@ -471,12 +471,27 @@ header .navbar .cta-btn a:hover {
     background-color: #fff;
     margin: 10px;
     border-radius: 20px;
+    
+}
+
+.blog,
+.sched-r {
+    display: block;
+    margin: 10px;
+    border-radius: 20px;
+    background: #FF512F;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F09819, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F09819, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
 }
 
 .blog .bg-image,
 .blog .text,
 .sched .bg-image,
-.sched .text {
+.sched .text,
+.sched-r .bg-image,
+.sched-r .text{
     width: 100%
 }
 
@@ -484,29 +499,40 @@ header .navbar .cta-btn a:hover {
     .blog .bg-image,
     .blog .text,
     .sched .bg-image,
-    .sched .text {
+    .sched .text,
+    .sched-r .bg-image,
+    .sched-r .text{
         width: 100%
     }
 }
 
 .blog h3,
-.sched h3 {
+.sched h3{
     font-size: 20px
 }
 
+
+.sched-r .h3{
+    font-size: 25px
+}
+
+
 .blog .text,
-.sched .text {
+.sched .text,
+.sched-r .text{
     padding: 30px
 }
 
 .blog .sched-time,
-.sched .sched-time {
+.sched .sched-time,
+.sched-r .sched-time{
     font-size: 13px;
     color: #999999
 }
 
 .blog .bg-image,
-.sched .bg-image {
+.sched .bg-image,
+.sched .bg-image{
     background-size: cover;
     background-position: center center
 }
