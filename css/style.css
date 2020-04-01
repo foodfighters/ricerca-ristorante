@@ -8,7 +8,7 @@ body {
     font-weight: 400;
     font-size: 15px;
     line-height: 1.8;
-    color: #868e96
+    color: #5d6267
 }
 
 a {
@@ -96,16 +96,14 @@ textarea.form-control {
 }
 
 .btn.btn-outline-white {
-    border-width: 2px;
-    border-color: #fff;
-    color: #fff
+    border-width: inherit;
+    background: linear-gradient(to right, #F2C94C, #F2994A);
 }
 
 .btn.btn-outline-white:focus,
 .btn.btn-outline-white:hover {
     background: #fff;
     color: #000!important;
-    border-width: 2px
 }
 
 .btn:hover {
@@ -881,7 +879,7 @@ background: linear-gradient(to right, #F09819, #FF512F); /* W3C, IE 10+/ Edge, F
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.35);
     content: ""
 }
 
@@ -897,10 +895,13 @@ background: linear-gradient(to right, #F09819, #FF512F); /* W3C, IE 10+/ Edge, F
 }
 
 .slider-item .slider-text h1 {
-    font-size: 5rem;
     color: #fff;
     line-height: 1.2;
-    font-weight: 800!important
+    font-weight: 800!important;
+    font-size: 72px;
+    background: linear-gradient(to right, #F2994A, #F2C94C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 @media (max-width:991px) {
@@ -923,6 +924,9 @@ background: linear-gradient(to right, #F09819, #FF512F); /* W3C, IE 10+/ Edge, F
 
 .slider-item .slider-text .btn {
     text-decoration: none
+}
+
+
 }
 
 .slider-wrap {
@@ -1860,7 +1864,8 @@ background: linear-gradient(to right, #F09819, #FF512F); /* W3C, IE 10+/ Edge, F
 
 .popup {
     max-height: 100%;
-    width:auto;
+    width: 90%;
+    max-width: 600px;
     position: fixed;
     top: 50%;
     left: 50%;

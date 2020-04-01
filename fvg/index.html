@@ -2,13 +2,58 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Gourmet &mdash; Colorlib Website Template</title>
+    <title id="title">Food Mule - Ricerca Ristorante</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="title" content="Food Mule - Ricerca Ristoranti">
+<meta name="description" content="Cerca e condividi i ristoranti e le attività che effettuano consegne a domicilio durante il Covid-19">
 
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://foodmule.me">
+<meta property="og:title" content="Food Mule - Ricerca Ristoranti">
+<meta property="og:description" content="Cerca e condividi i ristoranti e le attività che effettuano consegne a domicilio durante il Covid-19">
+<meta property="og:image" content="https://foodmule.me/img/tumb.png?1234">
+<meta property="fb:app_id" content="272712390409431">
+
+       
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://foodmule.me">
+<meta property="twitter:title" content="Food Mule - Ricerca Ristoranti">
+<meta property="twitter:description" content="Cerca e condividi i ristoranti e le attività che effettuano consegne a domicilio durante il Covid-19">
+<meta property="twitter:image" content="https://foodmule.me/img/tumb.png"> 
+    
+      
+      <!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//foodmule.me/matomo/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+       
+       <!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5e834feed60e051e"></script>
+      
+      
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800|DM+Serif+Display:400,400i&display=swap" rel="stylesheet">
 
-    <link rel="shortcut icon" href="ftco-32x32.png">
+    
+<link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+<link rel="manifest" href="../site.webmanifest">
+<link rel="mask-icon" href="../safari-pinned-tab.svg">
+<meta name="msapplication-TileColor" content="#ff0000">
+<meta name="theme-color" content="#ffffff">
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet">
 
@@ -26,21 +71,44 @@
 
     <!-- Theme Style -->
     <link rel="stylesheet" href="../css/style.css">
+      
+      
+      <!--Cookies-->
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#aa0000",
+      "text": "#ffdddd"
+    },
+    "button": {
+      "background": "#ff0000"
+    }
+  },
+  "content": {
+    "message": "Questo sito è stato realizzato con un sacco di caffè ☕, quindi utilizza i cookie 🍪. Chiudendo questo banner, scorrendo questa pagina o cliccando qualunque suo elemento acconsenti all'uso dei cookie.",
+    "dismiss": "Ok !",
+    "link": "Scopri di più",
+    "href": "/cookies.html"
+  }
+})});
+</script>
+<!--End-->
   </head>
   <body>
     
     <header role="banner">
-      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-md">
         <div class="container">
-          <a class="navbar-brand" href="index.html">Food Fighters</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
+          <a class="navbar-brand" href="../index.html"><img src="../img/foodmule.png" height="80px"></a>
         </div>
       </nav>
     </header>
     <!-- END header -->
+
     
     <div class="slider-wrap">
       <div class="slider-item" style="background-image: url('../img/hero_1.jpg');">
@@ -60,7 +128,52 @@
     
 
 
+    <section class="section bg-light py-5  bottom-slant-gray">
+      <div class="container">
+        <div class="row align-items-center">
+
+          <div class="col-lg-6">
+            <img src="https://media2.giphy.com/media/3o85xIn6LuQV8POyre/source.gif" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-lg-5 ml-auto">
+            <div class="text-left heading-wrap">
+              <h2 data-aos="fade-up">Cos'è ?</h2>
+            </div>
+            <!-- <h3 class="mb-4">Welcome To Our Restaurant</h3> -->
+            <p>Un sito web gratuito per raccogliere l'elenco dei ristoranti che in questo momento effettuano consegne a domicilio </p> 
+          </div>
+          
+        </div>
+      </div>
+    </section>
     
+
+    <section class="section pb-0 bottom-slant-gray">
+      <div class="container">
+        <div class="row mb-5 justify-content-center" data-aos="fade">
+            <div class="col-md-7 text-center heading-wrap">
+              <h2 data-aos="fade-up">Come Funziona</h2>
+            </div>
+          </div>
+        <div class="row align-items-center text-center">
+          <div class="col-md-4 col-lg-4">
+              <h3 data-aos="fade-up">Condividi</h3>
+              <p data-aos="fade-up" data-aos-delay="100">Comunicaci i ristoranti che offrono il servizio di consegna nella tua zona</p>
+            <img src="../img/come-funziona/checklist.png" height="200px" alt="Image"  data-aos="fade" data-aos-delay="100">
+          </div>
+          <div class="col-md-4 col-lg-4">
+              <h3 data-aos="fade-up">Ordina</h3>
+              <p data-aos="fade-up" data-aos-delay="200">Contatta il ristorante che preferici per effettuare il tuo ordine</p>
+            <img src="../img/come-funziona/order.png" height="200px" alt="Image" data-aos="fade" data-aos-delay="200">
+          </div>
+          <div class="col-md-4 col-lg-4">
+              <h3 data-aos="fade-up">Gusta</h3>
+              <p data-aos="fade-up" data-aos-delay="500">Gusta il tuo cibo direttamnente a casa tua <strong>#iorestoacasa</strong></p>
+            <img src="../img/come-funziona/food-delivery.png" height="200px" alt="Image" data-aos="fade" data-aos-delay="500">
+          </div>
+        </div>
+      </div>
+    </section>
 
 
       <!--
@@ -112,7 +225,7 @@
       
       <!-- Regioni -->
 
-    <section class="section bg-white  bottom-slant-gray">
+    <section class="section bg-light  bottom-slant-gray">
 
       <div class="clearfix mb-5 pb-5">
         <div class="container-fluid">
@@ -232,7 +345,7 @@
        <div id="overlay">
     <!-- js import images overlay -->
       <div class="overlay" id="test">
-            <div class="sched popup d-block d-lg-flex">
+            <div class="sched-r popup d-block d-lg-flex">
               <div class="container" style="
     margin-top: 10%;
     margin-bottom: 10%;
@@ -259,7 +372,7 @@
 
 
       
-       <section class="section  bg-light top-slant-gray bottom-slant-gray">
+       <section class="section top-slant-gray bottom-slant-gray">
         <!-- da importare il css -->
         <div class="container">
             <div class="row align-items-center">
@@ -283,70 +396,7 @@
     </section> <!-- .section -->
 
       
-      
-    <section class="section relative-higher">
 
-      <div class="clearfix mb-5 pb-5">
-        <div class="container-fluid">
-          <div class="row" data-aos="fade">
-            <div class="col-md-12 text-center heading-wrap">
-              <h2>Testimonial</h2>
-              <!-- <span class="back-text">Testimonial</span> -->
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="container">
-
-        <div class="row justify-content-center">
-          <div class="col-lg-7">
-            <div class="owl-carousel centernonloop2">
-              <div class="slide" data-aos="fade-left" data-aos-delay="100">
-                <blockquote class="testimonial">
-                  <p>&ldquo; Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. &rdquo;</p>
-                  <div class="d-flex author">
-                    <img src="../img/person_1.jpg" alt="" class="mr-4">
-                    <div class="author-info">
-                      <h4>Mellisa Howard</h4>
-                      <p>CEO, XYZ Company</p>
-                    </div>
-                  </div>  
-                </blockquote>
-              </div>
-              <div class="slide" data-aos="fade-left" data-aos-delay="200">
-                <blockquote class="testimonial">
-                  <p>&ldquo; Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. &rdquo;</p>
-                  <div class="d-flex author">
-                    <img src="../img/person_2.jpg" alt="" class="mr-4">
-                    <div class="author-info">
-                      <h4>Mike Richardson</h4>
-                      <p>CEO, XYZ Company</p>
-                    </div>
-                  </div>  
-                </blockquote>
-              </div>
-              <div class="slide" data-aos="fade-left" data-aos-delay="300">
-                <blockquote class="testimonial">
-                  <p>&ldquo; Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. &rdquo;</p>
-                  <div class="d-flex author">
-                    <img src="../img/person_3.jpg" alt="" class="mr-4">
-                    <div class="author-info">
-                      <h4>Charles White</h4>
-                      <p>CEO, XYZ Company</p>
-                    </div>
-                  </div>  
-                </blockquote>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        
-
-        
-      </div>
-    </section> <!-- .section -->
 
     <section class="section bg-light top-slant-gray">
       <div class="clearfix mb-5 pb-5">
@@ -389,19 +439,19 @@
             <h3>Informazioni</h3>
             <p class="mb-5">Piccolo progetto open source creato per permettere di trovare i ristorati che effettuano consegne nella propria zona durante il Coronavirus.</p>
               <img src="../img/foodmule-logo.png" height="100px">
-            <!-- <ul class="list-unstyled footer-link d-flex footer-social">
-              <li><a href="#" class="p-2"><span class="fa fa-twitter"></span></a></li>
-              <li><a href="#" class="p-2"><span class="fa fa-facebook"></span></a></li>
-              <li><a href="#" class="p-2"><span class="fa fa-linkedin"></span></a></li>
-              <li><a href="#" class="p-2"><span class="fa fa-instagram"></span></a></li>
-            </ul> -->
+              <br>
+            <ul class="list-unstyled footer-link d-flex footer-social h4">
+              <li><a href="https://twitter.com/foodmule" class="p-2"><span class="fa fa-twitter"></span></a></li>
+              <li><a href="https://facebook.com/foodmule" class="p-2"><span class="fa fa-facebook"></span></a></li>
+              <li><a href="https://instagram.com/foodmule" class="p-2"><span class="fa fa-instagram"></span></a></li>
+            </ul>
 
           </div>
           <div class="col-md-5 mb-5">
             <div class="mb-5">
               <h3>Contribuisci</h3>
                 <p><a href="https://github.com/foodfighters/ricerca-ristorante"><strong class="d-block font-weight-normal"><i class="fa fa-github"></i> Github</strong></a></p>
-                <p><a class="typeform-share link" href="https://binco.typeform.com/to/eBtaMu" data-mode="popup" target="_blank">Segnala ristorante </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script></p>
+                <p><a class="typeform-share link" href="https://binco.typeform.com/to/eBtaMu" data-mode="popup" target="_blank">Condividi ristorante </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script></p>
             </div>
             <div>
               <h3>Contatti</h3>
@@ -409,14 +459,14 @@
                 <li class="d-block">
                   <span class="d-block text-black">Segnala errori:</span>
                   <span><a href="https://github.com/foodfighters/ricerca-ristorante/issues/new"><strong class="d-block font-weight-normal"><i class="fa fa-github"></i> Github Issue</strong></a></span></li>
-                <li class="d-block"><span class="d-block text-black">Email:</span><span><a href="mailto:hello.binco.me">hello@binco.me</a></span></li>
+                <li class="d-block"><span class="d-block text-black">Email:</span><span><a href="mailto:hello@foodmule.me">hello@foodmule.me</a></span></li>
               </ul>
             </div>
           </div>
           <div class="col-md-3 mb-5">
             <h3>Link</h3>
             <ul class="list-unstyled footer-link">
-              <li><a href="disclaimer.html">Disclaimer</a></li>
+              <li><a href="../disclaimer.html">Disclaimer</a></li>
             </ul>
           </div>
           <div class="col-md-3">
@@ -462,7 +512,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
               
       </script>
       <script src="../js-list/comuni.js"></script>
-      <script src="../js-list/ristoranti.js"></script>
+      <script src="../js-list/ristoranti.js">
+      
+      </script>
       
     <script src="../js/main.js"></script>
     

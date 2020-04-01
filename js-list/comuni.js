@@ -1,4 +1,8 @@
- function getOption(v)
+ 
+
+document.getElementById('province').onchange = function(){getOption()};
+
+function getOption(v)
  {
     
 
@@ -17,36 +21,39 @@ var pv = "all";
 $.ajax(settings).done(function (jcontent){
     
    // console.log(jcontent);
-    console.log(jcontent.regioni[id].province[0].comuni[0].nome);
-    console.log(jcontent.regioni[id].province[0].comuni.length);
     $( ".comuni" ).empty();
 
+    
+    var output = document.getElementById('comuni');
+    
     if (pv== "all") {
-     var output = document.getElementById('comuni');
+     
 output.innerHTML += '<option id="remove-me" value="all">Tutti</option><option id="remove-me" value="none" disabled>Seleziona Provincia</option>';
-      loadcomuni();  
+       loadcomuni();
     }
     else {
-        
-        var output = document.getElementById('comuni');
+
+
 output.innerHTML += '<option id="remove-me" value="all">Tutti (intera regione)</option>'; 
         
-            loadcomuni();
+            
     
 for (var i = 0; i < jcontent.regioni[id].province[pv].comuni.length; i++) {
     console.log(i);
    
 
-
-var output = document.getElementById('comuni');
 output.innerHTML += '<option id="remove-me" value="' + jcontent.regioni[id].province[pv].comuni[i].nome + '">' + jcontent.regioni[id].province[pv].comuni[i].nome + '</option>';
+    
+    
 
-}
+} 
+        
 
-  }      
+  }loadcomuni();
         
 });
-
-
+     
+    
 
  }
+

@@ -549,42 +549,45 @@ header {
         color: #fff; }
       /* line 593, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
       .owl-carousel.home-slider .slider-item .slider-text h1, .owl-carousel.home-slider-loop-false .slider-item .slider-text h1 {
-        font-size: 5rem;
         color: #fff;
         line-height: 1.2;
-        font-weight: 800 !important; }
+        font-weight: 800 !important;
+        font-size: 72px;
+        background: -webkit-linear-gradient(to right, #F2994A, #F2C94C);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; }
         @media (max-width: 991px) {
           /* line 593, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
           .owl-carousel.home-slider .slider-item .slider-text h1, .owl-carousel.home-slider-loop-false .slider-item .slider-text h1 {
             font-size: 40px; } }
-      /* line 603, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+      /* line 606, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
       .owl-carousel.home-slider .slider-item .slider-text p, .owl-carousel.home-slider-loop-false .slider-item .slider-text p {
         font-size: 20px;
         line-height: 1.5;
         font-weight: 300;
         color: white; }
-      /* line 609, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+      /* line 612, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
       .owl-carousel.home-slider .slider-item .slider-text a, .owl-carousel.home-slider-loop-false .slider-item .slider-text a {
         color: #fff;
         text-decoration: underline; }
-      /* line 613, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+      /* line 616, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
       .owl-carousel.home-slider .slider-item .slider-text .btn, .owl-carousel.home-slider-loop-false .slider-item .slider-text .btn {
         text-decoration: none; }
-  /* line 620, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 623, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .owl-carousel.home-slider.inner-page .slider-item, .owl-carousel.home-slider-loop-false.inner-page .slider-item {
     height: calc(50vh - 117px);
     min-height: 550px; }
-    /* line 623, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+    /* line 626, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
     .owl-carousel.home-slider.inner-page .slider-item .slider-text, .owl-carousel.home-slider-loop-false.inner-page .slider-item .slider-text {
       color: #fff;
       height: calc(50vh - 117px);
       min-height: 550px; }
-  /* line 630, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 633, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .owl-carousel.home-slider .owl-dots, .owl-carousel.home-slider-loop-false .owl-dots {
     position: absolute;
     bottom: 200px;
     width: 100%; }
-    /* line 635, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+    /* line 638, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
     .owl-carousel.home-slider .owl-dots .owl-dot, .owl-carousel.home-slider-loop-false .owl-dots .owl-dot {
       width: 10px;
       height: 10px;
@@ -594,44 +597,44 @@ header {
       outline: none !important;
       position: relative;
       transition: .3s all ease; }
-      /* line 644, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+      /* line 647, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
       .owl-carousel.home-slider .owl-dots .owl-dot.active, .owl-carousel.home-slider-loop-false .owl-dots .owl-dot.active {
         border: 2px solid white; }
-        /* line 646, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+        /* line 649, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
         .owl-carousel.home-slider .owl-dots .owl-dot.active span, .owl-carousel.home-slider-loop-false .owl-dots .owl-dot.active span {
           background: white; }
 
-/* line 655, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+/* line 658, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
 .owl-carousel.major-caousel .owl-stage-outer {
   padding-top: 30px;
   padding-bottom: 30px; }
 
-/* line 660, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+/* line 663, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
 .owl-carousel.major-caousel .owl-nav .owl-prev, .owl-carousel.major-caousel .owl-nav .owl-next {
   transition: .3s all ease;
   color: #495057; }
-  /* line 663, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 666, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .owl-carousel.major-caousel .owl-nav .owl-prev:hover, .owl-carousel.major-caousel .owl-nav .owl-prev:focus, .owl-carousel.major-caousel .owl-nav .owl-next:hover, .owl-carousel.major-caousel .owl-nav .owl-next:focus {
     color: #868e96;
     outline: none; }
-  /* line 667, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 670, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .owl-carousel.major-caousel .owl-nav .owl-prev.disabled, .owl-carousel.major-caousel .owl-nav .owl-next.disabled {
     color: #dee2e6; }
 
-/* line 671, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+/* line 674, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
 .owl-carousel.major-caousel .owl-nav .owl-prev {
   left: -60px !important; }
 
-/* line 674, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+/* line 677, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
 .owl-carousel.major-caousel .owl-nav .owl-next {
   right: -60px !important; }
 
-/* line 678, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+/* line 681, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
 .owl-carousel.major-caousel .owl-dots {
   bottom: -30px !important;
   position: relative; }
 
-/* line 684, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+/* line 687, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
 .slider-item {
   background-size: cover;
   background-repeat: no-repeat;
@@ -639,7 +642,7 @@ header {
   height: calc(100vh);
   min-height: 700px;
   position: relative; }
-  /* line 691, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 694, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .slider-item:before {
     position: absolute;
     top: 0;
@@ -648,43 +651,43 @@ header {
     bottom: 0;
     background: rgba(0, 0, 0, 0.2);
     content: ""; }
-  /* line 703, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 706, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .slider-item .slider-text {
     color: #fff;
     height: calc(100vh);
     min-height: 700px; }
-    /* line 707, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+    /* line 710, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
     .slider-item .slider-text .child-name {
       font-size: 40px;
       color: #fff; }
-    /* line 711, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+    /* line 714, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
     .slider-item .slider-text h1 {
       font-size: 5rem;
       color: #fff;
       line-height: 1.2;
       font-weight: 800 !important; }
       @media (max-width: 991px) {
-        /* line 711, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+        /* line 714, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
         .slider-item .slider-text h1 {
           font-size: 40px; } }
-    /* line 721, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+    /* line 724, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
     .slider-item .slider-text p {
       font-size: 20px;
       line-height: 1.5;
       font-weight: 300;
       color: white; }
-    /* line 727, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+    /* line 730, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
     .slider-item .slider-text a {
       color: #fff;
       text-decoration: underline; }
-    /* line 731, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+    /* line 734, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
     .slider-item .slider-text .btn {
       text-decoration: none; }
 
-/* line 737, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+/* line 740, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
 .slider-wrap {
   position: relative; }
-  /* line 739, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 742, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .slider-wrap:after {
     content: "";
     width: 100%;
@@ -697,16 +700,16 @@ header {
     position: absolute;
     transform: skewY(-6deg);
     transform-origin: top left; }
-  /* line 753, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 756, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .slider-wrap.no-slanted:after {
     display: none; }
 
-/* line 758, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+/* line 761, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
 .owl-custom-nav {
   float: right;
   position: relative;
   z-index: 10; }
-  /* line 762, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 765, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .owl-custom-nav .owl-custom-prev,
   .owl-custom-nav .owl-custom-next {
     padding: 10px;
@@ -717,17 +720,17 @@ header {
     text-align: center;
     display: inline-block; }
 
-/* line 776, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+/* line 779, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
 .section {
   padding: 15em 0;
   position: relative;
   z-index: 2; }
 
-/* line 782, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+/* line 785, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
 .section-subscribe {
   padding: 2em 0; }
 
-/* line 786, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+/* line 789, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
 .quote-content {
   max-width: 350px;
   font-size: 16px;
@@ -736,82 +739,82 @@ header {
   position: relative;
   display: table; }
   @media (max-width: 991px) {
-    /* line 786, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+    /* line 789, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
     .quote-content {
       max-width: 100%; } }
-  /* line 796, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 799, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .quote-content .text, .quote-content .quote {
     display: table-cell;
     vertical-align: top; }
-  /* line 800, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 803, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .quote-content .quote {
     font-size: 100px;
     line-height: .5;
     z-index: 0; }
-  /* line 806, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 809, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .quote-content .text {
     padding-left: 40px;
     line-height: 2; }
-  /* line 812, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 815, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .quote-content.float-right {
     position: relative;
     margin-left: 2em;
     margin-right: -10em; }
     @media (max-width: 991px) {
-      /* line 812, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+      /* line 815, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
       .quote-content.float-right {
         margin-left: 0em;
         margin-right: 0em;
         float: none !important; } }
-  /* line 823, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 826, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .quote-content.float-left {
     position: relative;
     margin-right: 2em;
     margin-left: -10em; }
     @media (max-width: 991px) {
-      /* line 823, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+      /* line 826, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
       .quote-content.float-left {
         margin-right: 0em;
         margin-left: 0em;
         float: none !important; } }
 
-/* line 834, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+/* line 837, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
 .form-wrap {
   background: #fff;
   padding: 50px;
   box-shadow: 0 20px 50px -10px rgba(0, 0, 0, 0.5); }
-  /* line 838, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 841, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .form-wrap h2 {
     font-size: 18px;
     text-transform: uppercase;
     color: #000;
     letter-spacing: .1em;
     margin-bottom: 40px; }
-  /* line 845, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 848, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .form-wrap.overlap {
     z-index: 99;
     position: relative;
     margin-top: -10em; }
-  /* line 850, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 853, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .form-wrap.primary {
     background: #ff7404; }
-  /* line 853, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 856, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .form-wrap.warning {
     background: #ffc107; }
-  /* line 859, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 862, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .form-wrap.primary h2, .form-wrap.warning h2 {
     color: #fff; }
-  /* line 862, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 865, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .form-wrap.primary .form-control, .form-wrap.warning .form-control {
     border: 2px solid transparent; }
-  /* line 866, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 869, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .form-wrap.primary input[type="submit"], .form-wrap.warning input[type="submit"] {
     box-shadow: 0 20px 50px -10px rgba(0, 0, 0, 0.5) !important; }
 
-/* line 874, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+/* line 877, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
 .select-wrap {
   position: relative; }
-  /* line 877, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 880, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .select-wrap .select-arrow-icon {
     font-size: 20px;
     color: #000;
@@ -819,18 +822,18 @@ header {
     right: 20px;
     top: 50%;
     transform: translateY(-50%); }
-  /* line 885, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 888, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .select-wrap select {
     appearance: none;
     height: 50px !important; }
 
-/* line 893, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+/* line 896, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
 .contact-form-contact-info p {
   margin-bottom: 30px;
   font-size: 20px;
   line-height: 1.5;
   color: #000; }
-  /* line 898, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 901, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .contact-form-contact-info p .icon {
     top: -4px;
     position: relative;
@@ -838,7 +841,7 @@ header {
     font-size: 30px;
     color: #ff7404; }
 
-/* line 908, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+/* line 911, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
 .load-more {
   display: block;
   padding: 40px;
@@ -846,34 +849,34 @@ header {
   background: #e9ecef;
   color: #000;
   font-size: 20px; }
-  /* line 915, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 918, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .load-more:hover {
     background: #ff7404;
     color: #fff; }
 
-/* line 922, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+/* line 925, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
 .cover_1 {
   background-size: cover;
   background-position: center center;
   padding: 7em 0; }
-  /* line 926, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 929, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .cover_1 .sub-heading {
     color: rgba(255, 255, 255, 0.7);
     font-size: 22px; }
-  /* line 930, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 933, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .cover_1 .heading {
     font-size: 50px;
     color: white;
     font-weight: 300; }
 
-/* line 936, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+/* line 939, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
 .heading {
   color: #000; }
-  /* line 938, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 941, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .heading.border-bottom {
     position: relative;
     padding-bottom: 30px; }
-    /* line 941, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+    /* line 944, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
     .heading.border-bottom:before {
       bottom: 0;
       position: absolute;
@@ -884,17 +887,17 @@ header {
       transform: translateX(-50%);
       background: #ff7404; }
 
-/* line 953, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+/* line 956, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
 .text-black {
   color: #000 !important; }
 
-/* line 958, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+/* line 961, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
 .stretch-section .video {
   display: block;
   position: relative;
   box-shadow: 4px 4px 70px -20px rgba(0, 0, 0, 0.5); }
 
-/* line 965, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+/* line 968, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
 .media-feature {
   padding: 30px;
   transition: .2s all ease-out;
@@ -904,67 +907,67 @@ header {
   border-bottom: 10px solid transparent;
   border-radius: 4px;
   font-size: 15px; }
-  /* line 974, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 977, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .media-feature .icon {
     font-size: 60px;
     color: #ff7404; }
-  /* line 978, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 981, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .media-feature h3 {
     font-size: 16px;
     text-transform: uppercase; }
-  /* line 982, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 985, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .media-feature:hover, .media-feature:focus {
     box-shadow: 0 2px 20px -3px rgba(0, 0, 0, 0.1);
     transform: scale(1.05);
     z-index: 2;
     border-bottom: 10px solid #ff7404; }
 
-/* line 990, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+/* line 993, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
 .media-custom {
   background: #fff;
   transition: .3s all ease;
   margin-bottom: 30px;
   position: relative;
   top: 0; }
-  /* line 996, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 999, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .media-custom .meta-post {
     color: #ced4da;
     font-size: 13px;
     text-transform: uppercase; }
-  /* line 1001, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 1004, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .media-custom > a {
     position: relative;
     overflow: hidden;
     display: block; }
-  /* line 1006, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 1009, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .media-custom .meta-chat {
     color: #ced4da; }
-    /* line 1008, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+    /* line 1011, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
     .media-custom .meta-chat:hover {
       color: #868e96; }
-  /* line 1012, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 1015, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .media-custom img {
     transition: .3s all ease; }
-  /* line 1016, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 1019, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .media-custom:focus img, .media-custom:hover img {
     transform: scale(1.1); }
-  /* line 1020, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 1023, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .media-custom .media-body {
     padding: 30px; }
-    /* line 1022, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+    /* line 1025, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
     .media-custom .media-body h3 {
       font-size: 20px; }
-    /* line 1026, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+    /* line 1029, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
     .media-custom .media-body p:last-child {
       margin-bottom: 0; }
 
-/* line 1037, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+/* line 1040, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
 .list-unstyled.check li {
   position: relative;
   padding-left: 30px;
   line-height: 1.3;
   margin-bottom: 10px; }
-  /* line 1042, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 1045, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .list-unstyled.check li:before {
     color: #5AC8D8;
     left: 0;
@@ -972,26 +975,26 @@ header {
     content: "\f122";
     position: absolute; }
 
-/* line 1057, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+/* line 1060, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
 #modalAppointment .modal-content {
   border-radius: 0;
   border: none; }
 
-/* line 1061, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+/* line 1064, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
 #modalAppointment .modal-body, #modalAppointment .modal-footer {
   padding: 40px; }
 
 @media (max-width: 991px) {
-  /* line 1066, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 1069, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .img-md-fluid {
     max-width: 100%; } }
 
-/* line 1072, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+/* line 1075, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
 .site-footer {
   position: relative;
   z-index: 5;
   padding: 5em 0; }
-  /* line 1075, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 1078, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .site-footer:before {
     content: "";
     width: 100%;
@@ -1003,23 +1006,23 @@ header {
     position: absolute;
     transform: skewY(-6deg);
     transform-origin: top left; }
-  /* line 1093, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 1096, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .site-footer p:last-child {
     margin-bottom: 0; }
-  /* line 1099, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 1102, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .site-footer h3 {
     font-size: 16px;
     margin-bottom: 20px;
     font-weight: bold; }
-  /* line 1108, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 1111, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .site-footer .footer-link li {
     line-height: 1.5;
     margin-bottom: 15px; }
-  /* line 1113, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 1116, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .site-footer hr {
     width: 100%; }
 
-/* line 1119, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+/* line 1122, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
 .footer-social a {
   line-height: 0;
   border-radius: 50%;
@@ -1029,34 +1032,34 @@ header {
   height: 30px;
   text-align: center;
   display: inline-block; }
-  /* line 1128, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 1131, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .footer-social a:hover {
     background: #fff;
     border-color: #fff;
     color: #000; }
 
-/* line 1136, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+/* line 1139, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
 .link-thumbnail {
   display: block;
   position: relative;
   overflow: hidden;
   text-align: center; }
   @media (max-width: 991px) {
-    /* line 1136, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+    /* line 1139, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
     .link-thumbnail {
       margin-bottom: 30px; } }
-  /* line 1145, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 1148, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .link-thumbnail img {
     position: relative;
     transition: .3s all ease; }
-  /* line 1149, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 1152, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .link-thumbnail .date {
     display: block;
     font-size: 12px;
     color: rgba(255, 255, 255, 0.4);
     text-transform: uppercase;
     margin-bottom: 10px; }
-  /* line 1156, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 1159, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .link-thumbnail .icon {
     position: absolute;
     transition: .3s all ease;
@@ -1069,7 +1072,7 @@ header {
     opacity: 0;
     visibility: hidden;
     margin-top: 30px; }
-  /* line 1169, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 1172, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .link-thumbnail h3 {
     opacity: 0;
     visibility: hidden;
@@ -1084,7 +1087,7 @@ header {
     display: block;
     width: 77%;
     transform: translateX(-50%); }
-  /* line 1184, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 1187, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .link-thumbnail:before {
     opacity: 0;
     visibility: hidden;
@@ -1097,38 +1100,38 @@ header {
     content: "";
     background: rgba(0, 0, 0, 0.6);
     position: absolute; }
-  /* line 1199, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 1202, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .link-thumbnail:hover h3 {
     opacity: 1;
     visibility: visible;
     bottom: 30px; }
-  /* line 1204, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 1207, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .link-thumbnail:hover img {
     transform: scale(1.1); }
-  /* line 1207, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 1210, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .link-thumbnail:hover .icon {
     opacity: 1;
     visibility: visible;
     margin-top: 0px; }
-  /* line 1212, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 1215, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .link-thumbnail:hover:before {
     opacity: 1;
     visibility: visible; }
 
-/* line 1221, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+/* line 1224, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
 .border-t {
   border-top: 1px solid #f8f9fa; }
 
-/* line 1225, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+/* line 1228, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
 .copyright {
   font-size: 14px; }
 
-/* line 1230, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+/* line 1233, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
 .element-animate {
   opacity: 0;
   visibility: hidden; }
 
-/* line 1237, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+/* line 1240, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
 #loader {
   position: fixed;
   width: 96px;
@@ -1144,7 +1147,7 @@ header {
   transition: opacity .2s ease-out, visibility 0s linear .2s;
   z-index: 1000; }
 
-/* line 1253, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+/* line 1256, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
 #loader.fullscreen {
   padding: 0;
   left: 0;
@@ -1156,13 +1159,13 @@ header {
   border-radius: 0;
   box-shadow: none; }
 
-/* line 1265, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+/* line 1268, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
 #loader.show {
   transition: opacity .4s ease-out, visibility 0s linear 0s;
   visibility: visible;
   opacity: 1; }
 
-/* line 1271, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+/* line 1274, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
 #loader .circular {
   animation: loader-rotate 2s linear infinite;
   position: absolute;
@@ -1171,7 +1174,7 @@ header {
   display: block;
   transform: rotate(0deg); }
 
-/* line 1280, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+/* line 1283, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
 #loader .path {
   stroke-dasharray: 1, 200;
   stroke-dashoffset: 0;
@@ -1193,10 +1196,10 @@ header {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
 
-/* line 1308, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+/* line 1311, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
 .bottom-slant-gray {
   position: relative; }
-  /* line 1310, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 1313, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .bottom-slant-gray:after {
     content: "";
     width: 100%;
@@ -1210,12 +1213,12 @@ header {
     transform: skewY(-6deg);
     transform-origin: top left; }
 
-/* line 1324, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+/* line 1327, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
 .top-slant-white {
   position: relative;
   margin-top: -200px;
   z-index: -1; }
-  /* line 1328, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 1331, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .top-slant-white:before {
     content: "";
     width: 100%;
@@ -1229,10 +1232,10 @@ header {
     transform: skewY(-6deg);
     transform-origin: top left; }
 
-/* line 1342, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+/* line 1345, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
 .top-slant-white2 {
   position: relative; }
-  /* line 1344, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 1347, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .top-slant-white2:before {
     content: "";
     width: 100%;
@@ -1246,22 +1249,22 @@ header {
     transform: skewY(-6deg);
     transform-origin: top left; }
 
-/* line 1358, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+/* line 1361, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
 .relative-higher {
   position: relative;
   z-index: 5; }
 
-/* line 1364, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+/* line 1367, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
 .service-block h3 {
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: .2rem; }
 
-/* line 1372, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+/* line 1375, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
 .about_img_1 {
   margin-bottom: 30px; }
 
-/* line 1375, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+/* line 1378, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
 .wrap-icon {
   width: 80px;
   height: 80px;
@@ -1270,7 +1273,7 @@ header {
   position: relative;
   display: block;
   background: #ff7404; }
-  /* line 1384, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 1387, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .wrap-icon > span {
     font-size: 2rem;
     color: #fff;
@@ -1279,21 +1282,21 @@ header {
     left: 50%;
     transform: translate(-50%, -50%); }
 
-/* line 1394, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+/* line 1397, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
 .comment-form-wrap {
   clear: both; }
 
-/* line 1398, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+/* line 1401, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
 .comment-list {
   padding: 0;
   margin: 0; }
-  /* line 1401, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 1404, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .comment-list .children {
     padding: 50px 0 0 40px;
     margin: 0;
     float: left;
     width: 100%; }
-  /* line 1407, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 1410, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .comment-list li {
     padding: 0;
     margin: 0 0 30px 0;
@@ -1301,63 +1304,63 @@ header {
     width: 100%;
     clear: both;
     list-style: none; }
-    /* line 1414, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+    /* line 1417, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
     .comment-list li .vcard {
       width: 80px;
       float: left; }
-      /* line 1417, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+      /* line 1420, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
       .comment-list li .vcard img {
         width: 50px;
         border-radius: 50%; }
-    /* line 1422, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+    /* line 1425, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
     .comment-list li .comment-body {
       float: right;
       width: calc(100% - 80px); }
-      /* line 1425, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+      /* line 1428, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
       .comment-list li .comment-body h3 {
         font-size: 20px; }
-      /* line 1428, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+      /* line 1431, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
       .comment-list li .comment-body .meta {
         text-transform: uppercase;
         font-size: 13px;
         letter-spacing: .1em;
         color: #ccc; }
-      /* line 1434, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+      /* line 1437, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
       .comment-list li .comment-body .reply {
         padding: 5px 10px;
         background: #e6e6e6;
         color: #000;
         text-transform: uppercase;
         font-size: 14px; }
-        /* line 1440, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+        /* line 1443, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
         .comment-list li .comment-body .reply:hover {
           color: #000;
           background: #e3e3e3; }
 
-/* line 1449, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+/* line 1452, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
 .search-form {
   background: #f7f7f7; }
-  /* line 1453, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 1456, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .search-form .form-group {
     position: relative; }
-  /* line 1459, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 1462, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .search-form .icon {
     position: absolute;
     top: 50%;
     right: 20px;
     transform: translateY(-50%); }
 
-/* line 1467, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+/* line 1470, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
 .post-meta {
   font-size: 13px;
   text-transform: uppercase;
   letter-spacing: .2em; }
-  /* line 1471, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 1474, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .post-meta a {
     color: #fff;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
 
-/* line 1479, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+/* line 1482, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
 .sidebar-box {
   margin-bottom: 30px;
   padding: 25px;
@@ -1365,36 +1368,36 @@ header {
   width: 100%;
   float: left;
   background: #fff; }
-  /* line 1488, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 1491, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .sidebar-box *:last-child {
     margin-bottom: 0; }
-  /* line 1491, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 1494, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .sidebar-box h3 {
     font-size: 18px;
     margin-bottom: 15px; }
 
-/* line 1498, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+/* line 1501, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
 .categories li, .sidelink li {
   position: relative;
   margin-bottom: 10px;
   padding-bottom: 10px;
   border-bottom: 1px dotted #dee2e6;
   list-style: none; }
-  /* line 1504, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 1507, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .categories li:last-child, .sidelink li:last-child {
     margin-bottom: 0;
     border-bottom: none;
     padding-bottom: 0; }
-  /* line 1509, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 1512, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .categories li a, .sidelink li a {
     display: block; }
-    /* line 1511, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+    /* line 1514, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
     .categories li a span, .sidelink li a span {
       position: absolute;
       right: 0;
       top: 0;
       color: #ccc; }
-  /* line 1519, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
+  /* line 1522, /Users/binco/GitHub/ricerca-ristorante/scss/style.scss */
   .categories li.active a, .sidelink li.active a {
     color: #000;
     font-style: italic; }
