@@ -1,0 +1,16 @@
+﻿{
+  "alimentari": [
+  {
+    "code": "fvg-0",
+    "nome": "Panificio Piaia Andrea",
+    "text": "Panificio alimentari e surgelati salumi freschi",
+    "tag": "None",
+    "email": "panificiopiaia@gmail.com",
+    "comune": ["Cordenons", "Pordenone", "San Quirino"],
+    "numero": "+393347421285",
+    "whatsapp": "+393347421285",
+    "link_ordinazioni": "https://www.facebook.com/Panificiopiaiacordenons/",
+    "link_facebook": "https://www.facebook.com/Panificiopiaiacordenons/"
+  }
+]
+}

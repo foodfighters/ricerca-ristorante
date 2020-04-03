@@ -1,0 +1,32 @@
+{
+  "categorie": [
+    {
+			"nome": "Ristorazione",
+            "link": "ristoranti.html"
+    },
+    {
+			"nome": "Aziende Agricole, Cantine",
+            "link": "aziende-agricole.html"
+    },
+    {
+			"nome": "Alimentari",
+            "link": "alimentari.html"
+    },
+    {
+			"nome": "Farmacie",
+            "link": "farmacie.html"
+    },
+    {
+			"nome": "Giardinaggio e Fiori",
+            "link": "giardinaggio.html"
+    },
+    {
+			"nome": "Servizi",
+            "link": "servizi.html"
+    },
+    {
+			"nome": "Altro",
+            "link": "altro.html"
+    } 
+  ]
+}

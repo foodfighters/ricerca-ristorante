@@ -2,32 +2,11 @@
   "categorie": [
     {
 			"nome": "Ristorazione",
-            "link": "/ristoranti.html"
-    },
-    {
-			"nome": "Azienda Agricola ,Cantina",
-            "link": "/aziende-agricole.html"
+            "link": "ristoranti.html"
     },
     {
 			"nome": "Alimentari",
-            "link": "/alimentari.html"
-    },
-    {
-			"nome": "Farmacie",
-            "link": "/farmacie.html"
-    },
-    {
-			"nome": "Giardinaggio e Fiori",
-            "link": "/giardinaggio.html"
-    },
-    {
-			"nome": "Servizi",
-            "link": "/servizi.html"
-    },
-    {
-			"nome": "Altro",
-            "link": "/altro.html"
-    },
-    
+            "link": "alimentari.html"
+    }
   ]
 }
