@@ -8,6 +8,7 @@
     "email": "stefiboz@hotmail.com",
     "comune": ["Pordenone"],
     "numero": "'+390434362661",
+    "whatsapp": "",
     "link_ordinazione": "https://facebook.com/dallastePN",
     "link_facebook": "https://facebook.com/dallastePN"
   },
@@ -19,6 +20,7 @@
     "email": "udine@layogurteria.it",
     "comune": ["Feletto","Tavagnacco","Martignacco","Fagagna","Basaldella","Pozzuolo","Pradamano","Pavia di Udine","Buttrio","Manzano","Remanzacco","Premariacco","Povoletto","Faedis","Reana del Rojale","Tricesimo"],
     "numero": "'+393274311206",
+    "whatsapp": "",
     "link_ordinazione": "https://www.layogurteria.it",
     "link_facebook": "http://www.layogurteria.it/"
   },
@@ -29,9 +31,62 @@
     "tag": "Altro",
     "email": "info@vecchiparrocchiani.it",
     "comune": ["Udine"],
-    "numero": "'+393929852517",
+    "numero": "+393929852517",
+    "whatsapp": "+393480902795",
     "link_ordinazione": "https://www.vecchiparrocchiani.it",
     "link_facebook": "https://www.facebook.com/animadelgusto/"
+  },
+  {
+    "code": "fvg-3",
+    "nome": "Oblò food and drinks",
+    "text": "Ristorantino con specialità di pesce e fusion",
+    "tag": "Altro",
+    "email": "info@oblo-foodandrinks.com",
+    "comune": ["Pordenone e nel raggio di 15 km"],
+    "telefono": "+393921648654",
+    "whatsapp": "+393921648654",
+    "link_ordinazioni": "https://www.facebook.com/oblofoodanddrinks/",
+    "link_facebook": "https://www.facebook.com/oblofoodanddrinks/"
   }
 ]
 }
+
+[
+  {
+    "code": "fvg-1",
+    "nome": "Dalla Ste'",
+    "text": "Pizzeria d'asporto",
+    "tag": "Pizza e Kebab",
+    "email": "stefiboz@hotmail.com",
+    "comune": "Pordenone",
+    "telefono": 390434362661,
+    "whatsapp": "",
+    "link_ordinazioni": "https://m.facebook.com/dallastePN/?locale2=it_IT",
+    "link_facebook": "https://m.facebook.com/dallastePN/?locale2=it_IT"
+  },
+  {
+    "code": "fvg-2",
+    "nome": "La Yogurteria",
+    "text": "Yogurt Frozen,waffle,Pancake,Crêpes,Bubble Waffle",
+    "tag": "Dolce",
+    "email": "udine@layogurteria.it",
+    "comune": "Feletto, Tavagnacco, Martignacco, Fagagna, Basaldella, Pozzuolo, Pradamano, Pavia di Udine, Buttrio, Manzano, Remanzacco, Premariacco, Povoletto, Faedis, Reana del Rojale, Tricesimo,",
+    "telefono": 393274311206,
+    "whatsapp": "",
+    "link_ordinazioni": "https://www.layogurteria.it",
+    "link_facebook": "http://www.layogurteria.it/"
+  },
+  {
+    "code": "fvg-3",
+    "nome": "Ai Vecchi Parrocchiani",
+    "text": "Ristorante con cucina italiana",
+    "tag": "Altro",
+    "email": "info@vecchiparrocchiani.it",
+    "comune": "Udine",
+    "telefono": 393929852517,
+    "whatsapp": 393480902795,
+    "link_ordinazioni": "https://www.vecchiparrocchiani.it",
+    "link_facebook": "https://www.facebook.com/animadelgusto/"
+  },
+  
+]
