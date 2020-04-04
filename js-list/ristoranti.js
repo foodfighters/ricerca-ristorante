@@ -3,7 +3,7 @@
 var settings = {
   "async": true,
   "crossDomain": true,
-  "url": "https://api.foodmule.me",
+  "url": "/data/demo.json",
   "method": "GET",
 }
 
