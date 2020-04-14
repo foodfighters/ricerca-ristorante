@@ -1878,3 +1878,7 @@ background: linear-gradient(to right, #F09819, #FF512F); /* W3C, IE 10+/ Edge, F
     vertical-align: middle;
     margin: auto
 }
+
+.rounded-img {
+    border-radius: 50%;
+}
